@@ -1,0 +1,15 @@
+
+header {
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img {
+    width: 220px;    
+}

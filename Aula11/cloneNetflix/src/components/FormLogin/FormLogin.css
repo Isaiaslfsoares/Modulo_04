@@ -1,0 +1,122 @@
+:root {
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;     
+}
+
+body {
+    background: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('background.jpg') no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    padding: 48px 68px;
+    margin-top: 100px;    
+    height: 100vh;
+}
+
+form {
+    row-gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 314px;
+    height: 639px;
+}
+
+form h1 {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+form input {
+    width: 100%;
+    height: 54px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;     
+}
+
+#login {
+    width: 100%; 
+    height: 40px;   
+    background-color: rgb(193, 17, 25);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 16px 6px;
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+      
+}
+
+#acessCode {
+    width: 100%; 
+    height: 40px;
+    border-radius: 4px;  
+    border: none;
+    background-color: rgba(128, 128, 128, 0.3);
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#or, p {
+    color: darkgrey;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    row-gap: 16px;
+}
+
+#captcha {
+    font-size: 0.8rem;
+}
+
+#captcha a {
+color: blue;
+}
+
+#rememberMe {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
